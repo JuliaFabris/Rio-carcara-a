@@ -1,0 +1,22 @@
+{
+  "name": "rio-carcarana",
+  "version": "1.0.0",
+  "description": "Sitio web de la pelicula documental Río Carcarañá",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuliaFabris/Rio-carcara-a.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JuliaFabris/Rio-carcara-a/issues"
+  },
+  "homepage": "https://github.com/JuliaFabris/Rio-carcara-a#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
