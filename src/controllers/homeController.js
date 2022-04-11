@@ -3,13 +3,11 @@
 module.exports = {
     inicio: (req, res) => {
 
-       res.render('home', {
-                    titulo: "Río Carcarañá -home",
-                   
-                })
+        res.render('home', {
+            titulo: "Río Carcarañá",
+
+        })
 
     }
-
-    
 
 }
