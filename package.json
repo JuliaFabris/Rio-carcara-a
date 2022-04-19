@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/JuliaFabris/Rio-carcara-a#readme",
   "dependencies": {
-    "ejs": "^3.1.6",
+    "ejs": "^3.0.2",
     "express": "^4.17.3"
   }
 }
