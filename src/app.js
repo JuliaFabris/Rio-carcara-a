@@ -1,7 +1,7 @@
 const express = require('express');
 const path = require('path');
 const app = express();
-let homeRouter = require('./src/routes/home');
+
 
 const PORT = 3000;
 
@@ -21,7 +21,7 @@ app.use(express.urlencoded({ extended: false }));
    // saveUninitialized: true,
 //}))
 //app.use(cookieSession);
-
+let homeRouter = require('./routes/home.js');
 app.use('/', homeRouter);
 
 
