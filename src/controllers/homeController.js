@@ -1,9 +1,12 @@
 
 
 module.exports = {
-    inicio: (req, res) => {
-       
-        res.render('home')
+    home: (req, res) => {
+    res.render('home')
+
+    },
+    back: (req, res) => {
+      res.render('back')
 
     }
 
