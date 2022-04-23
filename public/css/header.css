@@ -1,12 +1,13 @@
 .col {
    display:flex;
    flex-direction:column;
+   list-style:none;
 }
 .topnav {
     display:flex;
     flex-direction:row;
     background-color: gray;
-    align-items:center
+    
   }
   .topnav ul li{
     list-style:none;
@@ -14,23 +15,25 @@
   
   /* Style the links inside the navigation bar */
   .topnav ul li a {
-    float: left;
+    
     color: black;
     text-align: center;
-    padding: 12px 14px;
     text-decoration: none;
     
   }
+
+  .topnav ul li a img {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit:contain;       
+  }
   
   /* Change the color of links on hover */
-  ..topnav ul li a {
+  .topnav ul li a:hover {
     background-color: green;
     box-shadow: blue;
   }
   
-  /* Add a color to the active/current link */
-  .topnav a.active {
-    background-color: #9B59B6;
-    color: black;
-  }
-  
+ 
