@@ -1,16 +1,49 @@
 .col {
    display:flex;
    flex-direction:column;
-   list-style:none;
+   border-style:1px solid black;
+  
 }
-.topnav {
+.topnav1 {
     display:flex;
     flex-direction:row;
     background-color: gray;
+    border-style:1px solid black;
+    
+  }
+  .topnav1 ul li{
+    list-style:none;
+    border-style:1 px solid black;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav1 ul li a {
+    
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    
+  }
+
+  .topnav1 ul li a img {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit:contain;       
+  }
+  
+  /* Change the color of links on hover */
+  .topnav {
+    display:flex;
+    flex-direction:row;
+    background-color: gray;
+    border-style:1px solid black;
     
   }
   .topnav ul li{
     list-style:none;
+    border-style:1px solid black;
   }
   
   /* Style the links inside the navigation bar */
@@ -22,15 +55,24 @@
     
   }
 
-  .topnav ul li a img {
-
-    display: block;
+  .topnav ul li a .img {
+   display:flex;
+   flex-direction:row;
+          
+  }
+  .topnav ul li a .img img{
+    align-items:right;
     margin-left: auto;
     margin-right: auto;
-    object-fit:contain;       
+    object-fit:contain;
+
   }
-  
   /* Change the color of links on hover */
+  .topnav ul li a:hover {
+    background-color: green;
+    box-shadow: blue;
+  }
+
   .topnav ul li a:hover {
     background-color: green;
     box-shadow: blue;

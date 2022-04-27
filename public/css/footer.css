@@ -1,33 +1,33 @@
 
 h3 {
-background-color: #D7BDE2;
-color: #9932CC;
-font-family: cursive;
-font-size: 35px;}
-
-h4 {
-background-color:#D7BDE2;
-color: #9932CC;
-text-align: justify;
-font-family: cursive;
-font-size: 30px;}
-
-footer  {
-color: #9932CC;
-text-align: center;
-
-}
-
-
-footer ul{
-  display:flex;
-  flex-direction:row;
-}
-
-li a {
-  text-decoration:none;
+  background-color: #D7BDE2;
+  color: #9932CC;
+  font-family: cursive;
+  font-size: 35px;}
+  
+  h4 {
+  background-color:#D7BDE2;
+  color: #9932CC;
+  text-align: justify;
+  font-family: cursive;
+  font-size: 30px;}
+  
+  footer  {
+  color: #9932CC;
   text-align: center;
-}
-
-
-
+  
+  }
+  
+  
+  footer ul{
+    display:flex;
+    flex-direction:row;
+  }
+  
+  li a {
+    text-decoration:none;
+    text-align: center;
+  }
+  
+  
+  
