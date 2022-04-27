@@ -1,16 +1,14 @@
 
 
-module.exports = {
+ let homeController= {
     home: (req, res) => {
     res.render('home')
 
-    },
-    back: (req, res) => {
-      res.render('back')
-
     }
 
-}                               
+}   
+
+module.exports = homeController
 
 
 

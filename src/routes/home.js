@@ -1,9 +1,10 @@
 let router = require('express').Router()
-let controller = require('../controllers/homeController')
+const homeController = require('../controllers/homeController');
 
 
-router.get('/', controller.home);
-router.get('/back', controller.back);
+
+router.get('/', homeController.home);
+
 
 
 module.exports = router 

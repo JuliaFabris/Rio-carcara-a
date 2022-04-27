@@ -1,0 +1,19 @@
+.mainHome {
+
+}
+
+.mainHome .gifContainer {
+    /* position: relative; */
+}
+
+.mainHome .gifContainer img {
+    position: relative; 
+}
+
+.mainHome .titles {
+    position: absolute;
+}
+
+.mainHome .titles p {
+
+}
