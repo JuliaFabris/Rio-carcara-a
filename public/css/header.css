@@ -1,11 +1,4 @@
-.col {
-   display:flex;
-   flex-direction:column;
-   border-style:1px solid black;
-   padding: 10px;
-   font-size:20px;
-  
-}
+
 .topnav1 {
     display:flex;
     flex-direction:row;
@@ -19,7 +12,14 @@
     list-style:none;
     border-style:1 px solid black;
   }
-  
+  .col {
+    display:flex;
+    flex-direction:column;
+    border-style:1px solid black;
+    padding: 10px;
+    font-size:20px;
+   
+ }
   /* Style the links inside the navigation bar */
   .topnav1 ul li a {
     
