@@ -16,8 +16,13 @@ app.set('views', path.resolve(__dirname,'views'));
 app.use(express.urlencoded({ extended : false}));
 app.use(express.json())
 
-/* rutas*/
-app.use('/', homeRouter);
+app.use(express.static( '../public'));
+
+
+//app.use(express.urlencoded({ extended: false }));
+
+let home = require('./routes/home');
+app.use('/', home);
 app.use('/back', backRouter);
 
 
