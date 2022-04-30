@@ -1,21 +1,30 @@
+/* min-width 320px */
 /* .mainHome {
 
-}
+} */
 
 .mainHome .gifContainer {
-     position: relative; 
-}
-
-.mainHome .gifContainer img {
     position: relative; 
-}
-
-.mainHome .titles {
-    position: absolute;
+   /*  height: 300px; */
+    /* display: flex; */
 }
 
 .mainHome .titles p {
+    color: white;
+    font-size: 22px;
+    text-align: center; /* centrado de las mismas etiquetas p */
+    position: absolute;
+    width: 100%;
+    top: 40px; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto; 
+}
 
-} */
+/* trailer container */
+.mainHome .trailerContainer {
+    background: var(--color-grisaseo);
+}
 
 /* carousel */
