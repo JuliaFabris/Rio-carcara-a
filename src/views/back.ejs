@@ -1,28 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-    <%- include('./partials/head') %>
-
-<body>
-    <%- include('./partials/header') %>
-
+ 
+<head>
+<%- include('./partials/head.ejs') %>
+</head>
+<body class="back">
+    <header>
+    <%- include('./partials/header.ejs') %> 
+</header>
+    <nav>
     <ul class="topnav">
         <li>
-        <a href="#sinopsis">Sinopsis</a>
+        <a href="#volver">Volcer</a>
+       <!-- <button type="submit">Volver</button>-->
        </li>
        <li>
-        <a href="#galeria">Galería</a>
+        <a href="#imagenes">imagenes</a>
        </li>
        <li>
-        <a href="/back.ejs">Detrás de la escena</a>
+        <a href="#equipo">Equipo</a>
        </li>
       
-    </ul>  
-    
-    <button type="submit">Volver</button>
+    </ul> 
+</nav> 
    
-    <h1>Detrás de escena</h1>
-    
-    <%- include('./partials/footer') %>
+ <section class="conteinerReparto">
+    <h3>Reparto principal</h3>
+        <img src="" alt="">
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium odit, explicabo placeat excepturi, facilis modi aperiam quam consequuntur earum optio perferendis numquam dolor, molestiae cupiditate quis vitae assumenda doloribus quas!
+        </p>
+        <img src="" alt="">
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium odit, explicabo placeat excepturi, facilis modi aperiam quam consequuntur earum optio perferendis numquam dolor, molestiae cupiditate quis vitae assumenda doloribus quas!
+        </p>
+        <img src="" alt="">
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium odit, explicabo placeat excepturi, facilis modi aperiam quam consequuntur earum optio perferendis numquam dolor, molestiae cupiditate quis vitae assumenda doloribus quas!
+        </p>
+    </section>
+    <section class="carrousel">
+        <div class="slide-container">
+            <div class="slide fade">
+                <img src="/photos/detrasDe.jpeg" alt="">
+            </div>
+            <div class="slide fade">
+                <img src="/photos/detrasDe1.jpeg" alt="">
+            </div>
+            <div class="slide fade">
+                <img src="/photos/detrasDe2.jpeg" alt="">
+            </div>
+        
+        </div>
+        <br>
+    </section>
 
+
+    <footer>   
+    <%- include('./partials/footer') %>
+</footer>
 </body>
 </html>
