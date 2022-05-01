@@ -24,7 +24,16 @@
 
 /* trailer container */
 .mainHome .trailerContainer {
-    background: var(--color-grisaseo);
+    background: var(--color-azul);
+    text-align: center;
 }
+
+
+
+
+
+
+
+
 
 /* carousel */
