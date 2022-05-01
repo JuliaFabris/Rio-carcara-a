@@ -21,9 +21,11 @@ app.use(express.static( '../public'));
 
 //app.use(express.urlencoded({ extended: false }));
 
-let home = require('./routes/home');
-app.use('/', home);
-app.use('/back', backRouter);
+app.use('/', homeRouter);
+/*app.use('/back', backRouter);*/
+app.get('/back', function (req, res) {
+    res.render('back')
+})
 
 
 app.listen(PORT, ()=>console.log(`Servidor levantado en el puerto ${PORT}
