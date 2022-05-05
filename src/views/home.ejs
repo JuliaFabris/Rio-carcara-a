@@ -3,9 +3,7 @@
 
 <%- include('./partials/head') %>
 
-  <body>
-
-  
+  <body class="body-home">
 
    <!--  <ul class="topnav">
       <li>
@@ -27,10 +25,8 @@
   </div>
   </ul>   -->
 
-  <!-- end header, nav -->
-
-    <main class="mainHome">
-      
+    
+      <!-- Gif y títulos -->
       <img class="gifContainer" src="/img/shipGif.gif" alt="Ship" width="100%">
 
       <div class="titles">
@@ -41,8 +37,8 @@
           de Rijeka a Malvinas <br>
         </p>
       </div> 
-      <!-- end gifContainer  -->
 
+      <!-- Trailer -->
       <div class="trailerContainer">
 
         <h2>Trailer</h2> 
@@ -60,12 +56,18 @@
       
       </div>  
 
+      <!-- Reseña/sinopsis del documental -->
       <article class="reseñaContainer">
+        <h2>Reseña</h2>
+        <p>
+          El Río Carcarañá era un buque mercante construido en Rijeka en 1962,
+          durante la antigua Yugoslavia, actualmente Croacia, por encargo de Empresas
+          Lineas Marítimas Argentinas (E.L.M.A.). En 1982 participaria en la Guerra de Malvinas.
 
+        </p>
       </article>
 
     <!-- carousel - Presentación de diapositivas para recorrer los elementos-->
-
     <div class="carouselContainer">
 
       <!-- Imágenes con el ancho completo más el número -->
@@ -136,7 +138,7 @@
     <br>
 
       <!-- Puntitos -->
-    <div style="text-align:center">
+    <div style="text-align:center; margin-bottom: 20px;" >
       <span class="dot" onclick="currentSlide(1)"></span>
       <span class="dot" onclick="currentSlide(2)"></span>
       <span class="dot" onclick="currentSlide(3)"></span>
@@ -150,8 +152,6 @@
     </div>
 
     <!-- end carousel -->
-
-    </main>
 
     <!-- <%- include('./partials/footer') %> -->
     <script src="/js/homeCarousel.js" defer></script> 

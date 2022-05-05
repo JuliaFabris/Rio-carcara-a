@@ -1,15 +1,18 @@
 /* min-width 320px */
-/* .mainHome {
+.body-home {
+  background-color: var(--color-azul);
+}
 
-} */
-
-.mainHome .gifContainer {
+.body-home .gifContainer {
+    /* margin: 0; */
+    padding: 0;
     position: relative; 
    /*  height: 300px; */
     /* display: flex; */
+    margin-bottom: 30px;
 }
 
-.mainHome .titles p {
+.body-home .titles p {
     color: white;
     font-size: 22px;
     text-align: center; /* centrado de las mismas etiquetas p */
@@ -23,21 +26,19 @@
 }
 
 /* trailer container */
-.mainHome .trailerContainer {
+.body-home .trailerContainer {
     background: var(--color-azul);
     text-align: center;
+    margin-bottom: 30px;
 }
 
+/* Reseña/sinopsis */
+.reseñaContainer {
+  margin-bottom: 30px;
+  background-color: var(--color-grisaseo);
+}
 
-
-
-
-
-
-
-
-/* -----------carousel ------------*/
-
+/* Carousel */
 /* contenedor principal */
 * {
   box-sizing: border-box;
