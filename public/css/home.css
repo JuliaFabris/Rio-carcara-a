@@ -1,6 +1,6 @@
 /* min-width 320px */
 .body-home {
-  background-color: var(--color-azul);
+  background-color: var(--color-blue);
 }
 
 .body-home .gifContainer {
@@ -9,7 +9,7 @@
     position: relative; 
    /*  height: 300px; */
     /* display: flex; */
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 .body-home .titles p {
@@ -23,19 +23,42 @@
     justify-content: center;
     align-items: center;
     margin: auto; 
+    text-transform: uppercase; /* mayuscula */
+    text-shadow: 1.5px 1px var(--color-blue); /* sombra de la letra */
+    font-weight: 500; /* grosor */
+    font-family: var(--font-titles);
 }
 
 /* trailer container */
 .body-home .trailerContainer {
-    background: var(--color-azul);
+    background: var(--color-blue);
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
+}
+
+.body-home .sub-titles {
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: var(--color-grey);
+    font-family: var(--font-titles);
+}
+
+.body-home .special-title {
+    color: var(--color-blue);
+    margin-bottom: 0;
 }
 
 /* Reseña/sinopsis */
 .reseñaContainer {
-  margin-bottom: 30px;
-  background-color: var(--color-grisaseo);
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: var(--color-grey);
+}
+
+.reseñaContainer p {
+  color: var(--color-blue);
+  font-family: var(--font-paragraphs);
+  margin-bottom: 5px;
 }
 
 /* Carousel */
@@ -128,4 +151,4 @@
   to {opacity: 1}
 }
 
-/* --------End carousel-------- */
+/* MEDIA QUERY - 450 px */
