@@ -6,22 +6,22 @@
   <body class="body-home">
 
     <!-- Barra de navegación que forma parte del header -->
-   <nav>
-     <ul>
-       <li>
-         <a href="#Trailer">Trailer</a>
-       </li>
-       <li>
-        <a href="#Reseña">Reseña</a>
-       </li>
-       <li>
-        <a href="#Imagenes">Imágenes</a>
-       </li>
-       <li>
-        <a href="localhost:3000/back">Detrás de escena</a>
-       </li>
-     </ul>
-   </nav>
+      <nav class="navContainer">
+        <ul>
+          <li>
+              <a href="#Trailer">Trailer</a>
+          </li>
+          <li>
+              <a href="#Reseña">Reseña</a>
+          </li>
+          <li>
+              <a href="#Imagenes">Imágenes</a>
+          </li>
+          <li>
+              <a href="/back">Detrás de escena</a>
+          </li>
+        </ul>
+      </nav>
     
       <!-- Gif y títulos -->
       <img class="gifContainer" src="/img/shipGif.gif" alt="Ship" width="100%">
@@ -38,14 +38,16 @@
       <div class="trailerContainer">
         <h2 class="sub-titles">Trailer</h2> 
  
-        <iframe  
-          heigth="300"       
+        <iframe 
+          width="100%" 
+          heigth="315"      
           src="https://www.youtube.com/embed/CaHGakIVIrk" 
           title="YouTube video player" 
-          frameborder="0"       
-          allowfullscreen
-          marginHeight="30">
-        </iframe><!-- heigth=315 -->  
+          frameborder="0"     
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"   
+          allowfullscreen>
+        </iframe> <!-- marginHeight="30" -->
+
       </div>  
 
       <!-- Reseña/sinopsis del documental -->

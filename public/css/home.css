@@ -1,8 +1,29 @@
 /* min-width 320px */
 .body-home {
-  background-color: var(--color-blue);
+    background-color: var(--color-blue);
 }
 
+/* Etiqueta nav que formaria parte del header */
+.body-home .navContainer {
+    display: flex;
+    background-color: var(--color-grey);
+    justify-content: space-evenly;
+    margin-top: 5px;
+}
+
+.body-home .navContainer ul li{
+    display: inline-block;
+    
+}
+
+.body-home .navContainer ul li a {
+    width: 100%;
+    color: var(--color-blue);
+    font-family: var(--font-titles);
+    font-size: 15px;
+}
+
+/* Sección del gif junto con los títulos */
 .body-home .gifContainer {
     width: 100%;
     padding: 0;
@@ -29,7 +50,7 @@
     font-family: var(--font-titles);
 }
 
-/* trailer container */
+/* Sección del trailer */
 .body-home .trailerContainer {
     background: var(--color-blue);
     text-align: center;
@@ -44,8 +65,8 @@
     text-align: center;
 }
 
-.body-home .trailerContainer iframe {
-    width: 90%;
+.body-home .trailerContainer iframe {/* ------------------------------- */
+   /*  width: 90%; */
     /* height: 50px; *//* 200px */
 }
 
@@ -55,7 +76,7 @@
     text-align: center;
 }
 
-/* Reseña/sinopsis */
+/* Sección de la reseña/sinopsis */
 .body-home .reseñaContainer {
   margin-bottom: 10px;
   padding: 10px;
@@ -68,7 +89,7 @@
   margin-bottom: 5px;
 }
 
-/* Carousel */
+/* Sección del carrusel de 10 imágenes */
 /* contenedor principal */
 * {
   box-sizing: border-box;
@@ -174,7 +195,7 @@
 }
 
 .body-home .trailerContainer iframe {
-  width: 85%;
+  /* width: 85%; */
   /* height: 300px; */
 }
 
