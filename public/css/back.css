@@ -1,54 +1,57 @@
 .body-back {
-    background-color: var(--color-azul);
-    height: auto;
-    
+    background-color:  #111B4F;
+   display:inline-block;
+  
 }
 .navbar_main {
-  background-color: #f2f2f2;
+  background-color: #E5E5E5;
+  font-family: var(--font-titles);
   height: 30px;
   width: 100%;
 }
-
+.navbar_main ul {
+  margin-left: 25px;
+}
 .navbar_main ul li{
   display: inline-block;
+  font-family: var(--font-titles);
   width: 30%;
 }
 
-section {
-  background-color: #bbb;
-    box-sizing:border-box;
-    margin-top: 5px;
-   font-family: Arial, Helvetica, sans-serif;
-   font-size: 11px;
-   height: auto;
-  
-}
 section.containerReparto {
-  display: flow-root;
+  display: block;
+  margin-top: 5px;
+ font-size: 11px;
   width: 100%;
-  height: 520px;
+  height: 580px;
 background-color: #f2f2f2;
+font-family: var(--font-titles);
+
 
 }
 .containerReparto h5{
-  text-decoration-color: midnightblue;
-  align-items: center;
+  width: 100%;
+  text-transform: var(--font-titles);
+  text-decoration-color:  #111B4F;
+ text-align: center;
   position: relative;
   top: 10px;
   bottom: 10px;
-  font-size: 13px;
+  font-size: 20px;
+  height: 30px;
+  
+
 }
 div.foto0 {
   display: flex;
   position: relative;
-  width: 98%;
+  width: 100%;
   height: 140px;
   top: 30px;
-left: 10px;
-margin-right: 5px;
 
 }
 img.img-reparto0{
+  
   width: 45%;
   height: 100%;
   
@@ -62,10 +65,10 @@ p.foto0{
 div.foto1 {
   display: flex;
   position: relative;
-  width: 95%;
+  width: 100%;
   height: 140px;
   top: 50px;
-  margin-left: 5px;
+  
 
 }
 p.foto1{
@@ -103,18 +106,21 @@ p.foto2{
   text-align: center;
   margin-right: 10px;
 }
-section.carrousel-section {
+section.carrousel-back {
   background-color:  midnightblue;
 top: 0%;
+bottom: 10px;
+text-transform: var(--font-titles);
 }
-h5{
-  text-decoration-color: white;
-  height: 20px;
+h5.carousel-back{
+  text-transform: var(--font-titles);
+text-decoration-color:  #E5E5E5;
+  height: 25px;
+  font-size: 20px;
+  text-align: center;
 }
 
-p {
-  text-align: right;
-}
+
 
 img {
   vertical-align: middle;
@@ -216,4 +222,33 @@ a.prev {
 }
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
+}
+
+section.equipo-reparto {
+  display: block;
+  margin-top: 5px;
+ font-size: 11px;
+ width: 100%;
+  height: 580px;
+background-color: #f2f2f2;
+font-family: var(--font-titles);
+}
+h5.equipo-reparto {
+  width: 100%;
+  text-transform: var(--font-titles);
+  text-decoration-color:  #111B4F;
+ text-align: center;
+  position: relative;
+  top: 10px;
+  bottom: 10px;
+  font-size: 20px;
+  height: 30px;
+}
+p.equipo-reparto {
+  position: relative;
+  width: 100%;
+  height: 180px;
+  text-align: center;
+  top: 20px;
+  margin-right: 10px;
 }
