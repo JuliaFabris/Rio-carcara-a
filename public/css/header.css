@@ -21,6 +21,7 @@ header{
  .col .row{
    display:flex;
    flex-direction: row;
+   justify-content:space-between;
  }
 
 
@@ -52,13 +53,6 @@ header .container-icon i {
 }
 
 
-
-
-header .search-box.active {
-
-
-  width: 100%;
-}
 
 
 
@@ -104,9 +98,6 @@ header .container-logo {
   header .left-container div.container-icon {
       display: none;
   }
-
-
-
 
 
 
