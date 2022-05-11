@@ -207,24 +207,34 @@ heigth="315"  */
 /* MEDIA QUERY - 500px */
 @media(min-width: 500px) {
   
-  .body-home .gifContainer {
-    height: 300px;
+  .body-home .navContainer ul li a {
+    font-size: 20px;
+  }
+
+  .body-home img.gifContainer {
+    height: 310px;
+  }
+
+  .body-home .titles p {
+    font-size: 30px; 
+    top: 120px; 
   }
 
   .body-home .trailerContainer iframe {
     width: 80%;
     height: 300px; 
-  }
+  } 
 
   .body-home .reseñaContainer {
     display: flex;
     flex-direction: row;
-    padding: 15px;
+    padding: 18px;
   }
 
-   /*  .body-home .reseñaContainer .reseñaParagraph {
-    margin-bottom: 15px;
-  } */
+  .body-home .reseñaContainer .reseñaParagraph {
+    margin-bottom: 0;
+    padding-right: 18px;
+  } 
   
   .body-home .reseñaContainer img.imgReseña {
     width: 50%;
@@ -232,4 +242,11 @@ heigth="315"  */
     margin: auto;
     align-items: center;
   }
+
+}
+
+
+/* MEDIA QUERY - 768px */
+@media(min-width: 768px) {
+
 }
