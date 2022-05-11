@@ -25,12 +25,12 @@
     font-family: var(--font-titles);
     font-size: 16px;
     cursor: pointer;
-}/* ---------------------------------en el nav container 425 media heigth 30px */
+}
 
 /* Sección del gif junto con los títulos----- */
 .body-home img.gifContainer {
     width: 100%;
-    height: 200px; /* ---------------------------en 425 modificar el alto */
+    height: 200px; 
     position: relative; 
 }
 
@@ -176,14 +176,21 @@ heigth="315"  */
 /* MEDIA QUERY - 425 px */
 @media(min-width: 425px) {
 
-  .body-home .gifContainer {
-    margin-bottom: 15px;
-    height: 220px;
+  .body-home .navContainer {
+    height: 30px;
+  }
+
+  .body-home .navContainer ul li a {
+    font-size: 18px;
+  }
+
+  .body-home img.gifContainer {
+    height: 250px;
   }
 
   .body-home .titles p {
-  /* font-size: 25px; */
-    top: 50px; 
+    font-size: 28px; 
+    top: 85px; 
   }
 
   .body-home .trailerContainer {
@@ -194,17 +201,10 @@ heigth="315"  */
     height: 280px; 
   }
 
-  .body-home .reseñaContainer {
-    margin-bottom: 20px;
-  }
-
-  .body-home .reseñaContainer .reseñaParrafo {
-    margin-bottom: 15px;
-  }
-
 }
 
 
+/* MEDIA QUERY - 500px */
 @media(min-width: 500px) {
   
   .body-home .gifContainer {
@@ -221,6 +221,10 @@ heigth="315"  */
     flex-direction: row;
     padding: 15px;
   }
+
+   /*  .body-home .reseñaContainer .reseñaParagraph {
+    margin-bottom: 15px;
+  } */
   
   .body-home .reseñaContainer img.imgReseña {
     width: 50%;
