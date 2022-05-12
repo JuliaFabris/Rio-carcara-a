@@ -212,7 +212,7 @@ heigth="315"  */
   }
 
   .body-home img.gifContainer {
-    height: 310px;
+    height: 350px; /* 310 */
   }
 
   .body-home .titles p {
@@ -221,8 +221,8 @@ heigth="315"  */
   }
 
   .body-home .trailerContainer iframe {
-    width: 80%;
-    height: 300px; 
+  /*   width: 80%; */
+    height: 350px; /* 300 */
   } 
 
   .body-home .reseñaContainer {
@@ -249,4 +249,13 @@ heigth="315"  */
 /* MEDIA QUERY - 768px */
 @media(min-width: 768px) {
 
-}
+  .body-home img.gifContainer {
+    height: 400px; 
+  }
+
+  .body-home .trailerContainer iframe {
+      width: 80%; 
+      height: 450px; /* 300 */
+  } 
+
+}/* Dar mas espacio entre seccion y sección */
