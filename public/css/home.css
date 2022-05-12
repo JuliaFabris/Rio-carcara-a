@@ -32,6 +32,7 @@
     width: 100%;
     height: 200px; 
     position: relative; 
+    margin-bottom: 35px; /* ------------------ */
 }
 
 .body-home .titles p {
@@ -55,7 +56,7 @@
 /* Sección del trailer----- */
 .body-home .trailerContainer {
     text-align: center;
-    margin-bottom: 15px;
+    margin-bottom: 35px;
 }
 
 .body-home .sub-titles {
@@ -63,12 +64,12 @@
     color: var(--color-grey);
     text-align: center;
     font-size: 20px;
-    margin: 15px 0;
+    margin-bottom: 10px; /* ------------- */
 }
 
 .body-home .trailerContainer iframe {
     width: 90%; 
-    height: 200px; 
+    height: 220px; /* ------------ */
 }
 /* width="90%" (html)
 heigth="315"  */ 
@@ -76,14 +77,15 @@ heigth="315"  */
 /* Sección de la reseña/sinopsis----- */
 .body-home .reseñaContainer {
     background-color: var(--color-grey);
-    padding: 10px;
+    padding: 30px 10px;
+    margin-bottom: 35px; /* ----- */
 }
 
 .body-home .reseñaContainer .reseñaParagraph {
     color: var(--color-blue);
     font-family: var(--font-paragraphs);
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .body-home .special-title {
@@ -193,12 +195,8 @@ heigth="315"  */
     top: 85px; 
   }
 
-  .body-home .trailerContainer {
-    margin-bottom: 20px;
-  }
-
   .body-home .trailerContainer iframe {
-    height: 280px; 
+    height: 300px; 
   }
 
 }
@@ -212,23 +210,28 @@ heigth="315"  */
   }
 
   .body-home img.gifContainer {
-    height: 350px; /* 310 */
+    height: 350px; 
+    margin-bottom: 40px;
   }
 
   .body-home .titles p {
     font-size: 30px; 
-    top: 120px; 
+    top: 140px; 
+  }
+
+  .body-home .trailerContainer {
+    margin-bottom: 40px;
   }
 
   .body-home .trailerContainer iframe {
-  /*   width: 80%; */
-    height: 350px; /* 300 */
+    height: 350px; 
   } 
 
   .body-home .reseñaContainer {
     display: flex;
     flex-direction: row;
-    padding: 18px;
+    padding: 35px 18px;
+    margin-bottom: 40px;
   }
 
   .body-home .reseñaContainer .reseñaParagraph {
