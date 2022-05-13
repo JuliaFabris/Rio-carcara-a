@@ -101,77 +101,77 @@ heigth="315"  */
 /* Sección del carrusel de 10 imágenes----- */
 /* contenedor principal */
 .carouselContainer { 
-    max-width: 1000px;
+    max-width: 1000px; 
     position: relative;
     margin: auto;
 }
 
 /* Ocultar las imágenes de forma predeterminada */
 .mySlides {
-  display: none;
+    display: none;
 } 
 
 /* Botones anterior y siguiente */
 .prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
 }
 
 /* Coloque el "botón siguiente" a la derecha */
 .next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
+    right: 0;
+    border-radius: 3px 0 0 3px;
 }
 
 /* Al pasar el cursor, agregue un color de fondo negro con un poco de transparencia */
 .prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+    background-color: rgba(0,0,0,0.8);
 }
 
 /* Numero de imagen indica la posición (1/3 etc) */
 .numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
 }
 
 /* Los puntos/viñetas/indicadores */
 .dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
 }
 
 .active, .dot:hover {
-  background-color: #717171;
+    background-color: #717171;
 }
 
 /* Animación de desvanecimiento */
 .fade { /* Toma la segunda clase de los div que contienen las fotos */
-  animation-name: fade;
-  animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
 }
 
 @keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+    from {opacity: .4}
+    to {opacity: 1}
 }
 
 
@@ -272,11 +272,45 @@ heigth="315"  */
 
   .body-home .trailerContainer iframe {
       width: 80%; 
-      height: 490px; 
+      height: 480px; 
   } 
 
   .body-home .reseñaContainer { 
     padding: 40px 25px;
+    margin-bottom: 50px;
+  }
+
+} 
+
+
+/* MEDIA QUERY - 1200px */
+@media(min-width: 1000px) {
+
+  .body-home img.gifContainer {
+    height: 500px; 
+    margin-bottom: 60px;
+  }
+
+  .body-home .titles p {
+    font-size: 40px;
+    top: 180px; 
+  }
+
+  .body-home .trailerContainer {
+    margin-bottom: 60px;
+  }
+
+  .body-home .reseñaContainer { 
+    padding: 50px 50px;
+    margin-bottom: 60px;
+  }
+  /*  */
+  .body-home .reseñaContainer .reseñaParagraph {
+    padding-right: 50px;
+  } 
+
+  .body-home .reseñaContainer .reseñaParagraph .special-title {
+    font-size: 22px;
     margin-bottom: 50px;
   }
 
