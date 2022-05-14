@@ -5,17 +5,17 @@
 
   <body class="body-home">
 
-    <!-- Barra de navegación que forma parte del header -->
+    <!-- Navegation and header -->
       <nav class="navContainer">
         <ul>
           <li>
-              <a href="#Trailer">Trailer</a>
+              <a href="#trailer">Trailer</a> 
           </li>
           <li>
-              <a href="#Reseña">Reseña</a>
+              <a href="#reseña">Reseña</a>
           </li>
           <li>
-              <a href="#Imagenes">Imágenes</a>
+              <a href="#imagenes">Imágenes</a>
           </li>
           <li>
               <a href="/back">Detrás de escena</a>
@@ -23,8 +23,8 @@
         </ul>
       </nav>
     
-      <!-- Gif y títulos -->
-      <img class="gifContainer" src="/img/shipGif.gif" alt="Ship" width="100%">
+      <!-- Gif and titles -->
+      <img class="gifContainer" src="/img/shipGif.gif" alt="Ship">
 
       <div class="titles">
         <p>
@@ -36,94 +36,86 @@
 
       <!-- Trailer -->
       <div class="trailerContainer">
-        <h2 class="sub-titles">Trailer</h2> 
+        <h2 class="sub-titles" id="trailer">Trailer</h2> 
  
         <iframe 
-          width="100%" 
-          heigth="315"      
           src="https://www.youtube.com/embed/CaHGakIVIrk" 
           title="YouTube video player" 
           frameborder="0"     
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"   
           allowfullscreen>
-        </iframe> <!-- marginHeight="30" -->
+        </iframe> 
 
       </div>  
 
       <!-- Reseña/sinopsis del documental -->
       <article class="reseñaContainer">
-        <h2 class="sub-titles special-title">Reseña</h2>
-        <p class="reseñaParrafo">
+        
+        <p class="reseñaParagraph">
+          <span class="special-title" id="reseña">Reseña</span>
+          <br>
           El Río Carcarañá era un buque mercante construido en Rijeka en 1962,
           durante la antigua Yugoslavia, actualmente Croacia, por encargo de Empresas
           Lineas Marítimas Argentinas (E.L.M.A.). En 1982 participaria en la Guerra de Malvinas.
+          Conoce su último viaje y la conmovedora historia de los trabajadores y sus tripulantes. 
         </p>
         <img class="imgReseña" src="/img/rijeka.png" alt="Rijeka">
+
       </article>
 
     <!-- carousel - Presentación de diapositivas para recorrer los elementos-->
-    <h2 class="sub-titles">Imágenes del documental</h2>
+    <h2 class="sub-titles" id="imagenes">Imágenes del documental</h2>
     <div class="carouselContainer">
 
       <!-- Imágenes con el ancho completo más el número -->
       <div class="mySlides fade">
         <div class="numbertext">1 / 10</div>
-        <img src="/img/carouselHome/construccion.png" style="width:100%" alt="Barco en construcción">
-        <!-- <div class="text">Caption Text</div>   -->  
+        <img src="/img/carouselHome/construccion.png" style="width:100%" alt="Barco en construcción">  
       </div>
 
       <div class="mySlides fade">
         <div class="numbertext">2 / 10</div>
-        <img src="/img/carouselHome/blanco-negro.png" style="width:100%" alt="Tripulantes">
-        <!-- <div class="text">Caption Two</div> -->
+        <img src="/img/carouselHome/blanco-negro.png" style="width:100%" alt="Tripulantes">     
       </div>
 
       <div class="mySlides fade">
         <div class="numbertext">3 / 10</div>
         <img src="/img/carouselHome/rio-carcaraña.png" style="width:100%" alt="Carcarañá">
-        <!-- <div class="text">Caption Three</div> -->
       </div>
 
       <div class="mySlides fade">
         <div class="numbertext">4 / 10</div>
         <img src="/img/carouselHome/avion.png" style="width:100%" alt="Avion de guerra">
-        <!-- <div class="text">Caption Text</div> --> 
       </div>
 
       <div class="mySlides fade">
         <div class="numbertext">5 / 10</div>
         <img src="/img/carouselHome/guerra.png" style="width:100%" alt="Ataques de guerra">
-        <!-- <div class="text">Caption Two</div> -->
       </div>
 
       <div class="mySlides fade">
         <div class="numbertext">6 / 10</div>
         <img src="/img/carouselHome/ejercito.png" style="width:100%" alt="Militares">
-        <!-- <div class="text">Caption Three</div> -->
       </div>
 
       <div class="mySlides fade">
         <div class="numbertext">7 / 10</div>
         <img src="/img/carouselHome/restos-carcaraña.png" style="width:100%" alt="Restos del barco">
-        <!-- <div class="text">Caption Text</div> --> 
       </div>
 
       <div class="mySlides fade">
         <div class="numbertext">8 / 10</div>
         <img src="/img/carouselHome/restos.png" style="width:100%" alt="Tripulante">
-        <!-- <div class="text">Caption Two</div> -->
       </div>
 
       <div class="mySlides fade">
         <div class="numbertext">9 / 10</div>
         <img src="/img/carouselHome/inmigrantes.png" style="width:100%" alt="Inmigrantes">
-        <!-- <div class="text">Caption Three</div> -->
       </div>
 
       <div class="mySlides fade">
         <div class="numbertext">10 / 10</div>
         <img src="/img/carouselHome/final.png" style="width:100%" alt="Bandera de Argentina">
-        <!-- <div class="text">Caption Three</div> -->
       </div>
 
       <!-- Botones anterior y siguiente -->
@@ -133,7 +125,7 @@
     <br>
 
       <!-- Puntitos -->
-    <div style="text-align:center; margin-bottom: 10px;" >
+    <div style="text-align:center; margin-bottom: 35px;" >
       <span class="dot" onclick="currentSlide(1)"></span>
       <span class="dot" onclick="currentSlide(2)"></span>
       <span class="dot" onclick="currentSlide(3)"></span>

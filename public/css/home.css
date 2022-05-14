@@ -1,213 +1,317 @@
-/* min-width 320px */
+/* min-width 320px */ 
 .body-home {
     background-color: var(--color-blue);
 }
 
-/* Etiqueta nav que formaria parte del header */
+/* Etiqueta nav que formaria parte del header----- */
 .body-home .navContainer {
-    display: flex;
     background-color: var(--color-grey);
-    justify-content: space-evenly;
+    width: 100%;
+    flex-direction: row;
     margin-top: 5px;
 }
 
+.body-home .navContainer ul {
+    display: flex;
+    justify-content: space-around;
+}
+
 .body-home .navContainer ul li{
-    display: inline-block;
-    
+    list-style: none;
 }
 
 .body-home .navContainer ul li a {
-    width: 100%;
     color: var(--color-blue);
     font-family: var(--font-titles);
-    font-size: 15px;
+    font-size: 16px;
+    cursor: pointer;
 }
 
-/* Sección del gif junto con los títulos */
-.body-home .gifContainer {
+/* Sección del gif junto con los títulos----- */
+.body-home img.gifContainer {
     width: 100%;
-    padding: 0;
+    height: 200px; 
     position: relative; 
-   /*  height: 300px; */
-    /* display: flex; */
-    margin-bottom: 10px;
+    margin-bottom: 35px; /* ------------------ */
 }
 
 .body-home .titles p {
-    color: white;
+    font-family: var(--font-titles);
+    text-transform: uppercase; /* mayúsculas */
     font-size: 22px;
+    font-weight: 500; /* grosor */
+    color: white;
+    text-shadow: 1.9px 3px var(--color-blue); /* sombra de la letra */
     text-align: center; /* centrado de las mismas etiquetas p */
     position: absolute;
     width: 100%;
-    top: 30px; 
-    flex-direction: column;
+    top: 75px;   
+    /* flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: auto; 
-    text-transform: uppercase; /* mayuscula */
-    text-shadow: 1.5px 1px var(--color-blue); /* sombra de la letra */
-    font-weight: 500; /* grosor */
-    font-family: var(--font-titles);
+    margin: auto 0;
+    align-items: center; */
 }
 
-/* Sección del trailer */
+/* Sección del trailer----- */
 .body-home .trailerContainer {
-    background: var(--color-blue);
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 35px;
 }
 
 .body-home .sub-titles {
-    margin-bottom: 10px;
-    font-size: 20px;
-    color: var(--color-grey);
     font-family: var(--font-titles);
+    color: var(--color-grey);
     text-align: center;
+    font-size: 20px;
+    margin-bottom: 10px; /* ------------- */
 }
 
-.body-home .trailerContainer iframe {/* ------------------------------- */
-   /*  width: 90%; */
-    /* height: 50px; *//* 200px */
+.body-home .trailerContainer iframe {
+    width: 90%; 
+    height: 220px; /* ------------ */
+}
+/* width="90%" (html)
+heigth="315"  */ 
+
+/* Sección de la reseña/sinopsis----- */
+.body-home .reseñaContainer {
+    background-color: var(--color-grey);
+    padding: 30px 10px;
+    margin-bottom: 35px; /* ----- */
+}
+
+.body-home .reseñaContainer .reseñaParagraph {
+    color: var(--color-blue);
+    font-family: var(--font-paragraphs);
+    text-align: center;
+    margin-bottom: 15px;
 }
 
 .body-home .special-title {
-    color: var(--color-blue);
-    margin-bottom: 0;
+    font-family: var(--font-titles);
     text-align: center;
+    font-size: 20px;
 }
 
-/* Sección de la reseña/sinopsis */
-.body-home .reseñaContainer {
-  margin-bottom: 10px;
-  padding: 10px;
-  background-color: var(--color-grey);
+.body-home .reseñaContainer img.imgReseña {
+    text-align: center; /* centrar img */
 }
 
-.body-home .reseñaContainer .reseñaParrafo {
-  color: var(--color-blue);
-  font-family: var(--font-paragraphs);
-  margin-bottom: 5px;
-}
-
-/* Sección del carrusel de 10 imágenes */
+/* Sección del carrusel de 10 imágenes----- */
 /* contenedor principal */
-* {
-  box-sizing: border-box;
-}
 .carouselContainer { 
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
+    max-width: 1000px; 
+    position: relative;
+    margin: auto;
 }
 
 /* Ocultar las imágenes de forma predeterminada */
 .mySlides {
-  display: none;
+    display: none;
 } 
 
 /* Botones anterior y siguiente */
 .prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
 }
 
 /* Coloque el "botón siguiente" a la derecha */
 .next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
+    right: 0;
+    border-radius: 3px 0 0 3px;
 }
 
 /* Al pasar el cursor, agregue un color de fondo negro con un poco de transparencia */
 .prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+    background-color: rgba(0,0,0,0.8);
 }
-
-/* Texto del título--------------no ponemos */
-/* .text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-} */
 
 /* Numero de imagen indica la posición (1/3 etc) */
 .numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
 }
 
 /* Los puntos/viñetas/indicadores */
 .dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
 }
 
 .active, .dot:hover {
-  background-color: #717171;
+    background-color: #717171;
 }
 
 /* Animación de desvanecimiento */
 .fade { /* Toma la segunda clase de los div que contienen las fotos */
-  animation-name: fade;
-  animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
 }
 
 @keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+    from {opacity: .4}
+    to {opacity: 1}
 }
 
 
-/* MEDIA QUERY - 450 px */
-.body-home .gifContainer {
-  margin-bottom: 15px;
+/* MEDIA QUERY - 425 px */
+@media(min-width: 425px) {
+
+  .body-home .navContainer {
+    height: 30px;
+  }
+
+  .body-home .navContainer ul li a {
+    font-size: 18px;
+  }
+
+  .body-home img.gifContainer {
+    height: 250px;
+  }
+
+  .body-home .titles p {
+    font-size: 28px; 
+    top: 85px; 
+  }
+
+  .body-home .trailerContainer iframe {
+    height: 300px; 
+  }
+
 }
 
-.body-home .titles p {
-  font-size: 25px;
-  top: 50px; 
+
+/* MEDIA QUERY - 500px */
+@media(min-width: 500px) {
+  
+  .body-home .navContainer ul li a {
+    font-size: 20px;
+  }
+
+  .body-home img.gifContainer {
+    height: 350px; 
+    margin-bottom: 40px;
+  }
+
+  .body-home .titles p {
+    font-size: 30px; 
+    top: 140px; 
+  }
+
+  .body-home .trailerContainer {
+    margin-bottom: 40px;
+  }
+
+  .body-home .trailerContainer iframe {
+    height: 350px; 
+  } 
+
+  .body-home .reseñaContainer {
+    display: flex;
+    flex-direction: row;
+    padding: 35px 18px;
+    margin-bottom: 40px;
+  }
+
+  .body-home .reseñaContainer .reseñaParagraph {
+    margin-bottom: 0;
+    padding-right: 18px;
+  } 
+  
+  .body-home .reseñaContainer img.imgReseña {
+    width: 50%;
+    height: 200px;
+    margin: auto;
+    align-items: center;
+  }
+
 }
 
-.body-home .trailerContainer {
-  margin-bottom: 20px;
-}
 
-.body-home .trailerContainer iframe {
-  /* width: 85%; */
-  /* height: 300px; */
-}
+/* MEDIA QUERY - 768px */
+@media(min-width: 768px) {
 
-.body-home .reseñaContainer {
-  margin-bottom: 20px;
-}
+  .body-home img.gifContainer {
+    height: 400px; 
+    margin-bottom: 50px;
+  } 
 
-.body-home .reseñaContainer img.imgReseña {
-  width: 80%;
-  align-items: center;
-}
+  .body-home .titles p {
+    top: 160px; 
+  }
 
-.body-home .reseñaContainer .reseñaParrafo {
-  margin-bottom: 15px;
+  .body-home .sub-titles {
+    font-size: 22px;
+    margin-bottom: 20px; 
+  }
+
+  .body-home .trailerContainer {
+    margin-bottom: 50px;
+  }
+
+  .body-home .trailerContainer iframe {
+      width: 80%; 
+      height: 480px; 
+  } 
+
+  .body-home .reseñaContainer { 
+    padding: 40px 25px;
+    margin-bottom: 50px;
+  }
+
+} 
+
+
+/* MEDIA QUERY - 1200px */
+@media(min-width: 1000px) {
+
+  .body-home img.gifContainer {
+    height: 500px; 
+    margin-bottom: 60px;
+  }
+
+  .body-home .titles p {
+    font-size: 40px;
+    top: 180px; 
+  }
+
+  .body-home .trailerContainer {
+    margin-bottom: 60px;
+  }
+
+  .body-home .reseñaContainer { 
+    padding: 50px 50px;
+    margin-bottom: 60px;
+  }
+  /*  */
+  .body-home .reseñaContainer .reseñaParagraph {
+    padding-right: 50px;
+  } 
+
+  .body-home .reseñaContainer .reseñaParagraph .special-title {
+    font-size: 22px;
+    margin-bottom: 50px;
+  }
+
 }

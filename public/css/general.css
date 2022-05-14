@@ -1,7 +1,8 @@
 * {
   box-sizing: border-box;
-  margin: 0;
+  margin: 0 auto; /* agregué auto */
   padding: 0;
+  max-width: 1200px; /* se ampliará solo a 1200px */
 }
 
 /* user-select: none; */
