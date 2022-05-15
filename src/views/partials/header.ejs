@@ -2,21 +2,51 @@
     <h2>Río Carcarañá</h2>
 
     <div class="container-logo" style="width: 150px;">
-       <a href="/"><img src="../../../img/logos/logo-ship.png" alt=""></a>
+       <a href="/"><img src="../../../img/logos/logo-ship.png" width="25%vh" alt=""></a>
     </div>
     <div class="col">
         <div class="row">
-            <a class="text-white h4 mx-2" href=""><i class="fas fa-sign-out-alt"></i></a>
-            <a class="text-white h4 mx-2" href=""><i class="fas fa-sign-out-alt"></i></a>
+            <a href="https://api.whatsapp.com/send?phone=5491132331374&text=¡Hola!,%20Me%20gustaría%20solicitar%20más%20información"
+             target="_blank"><i class="fab fa-whatsapp"></i></a>
+            <a class="text-white h4 mx-2" href=""><i class="fa-brands fa-instagram"></i>/a>
+            <a class="text-white h4 mx-2" href=""><i class="fa-brands fa-facebook-square"></i></a>
         </div>
-        <label for="language"> Idioma:
-          <select name="language">
-             <option>Elegir idioma</option>
-             <option>Español</option>
-             <option>English</option>
-          </select> 
-        </label>
-            </div>    
-             </div>
+        <div class="traductor" id="google_translate_element">    
+            <span><i class="fas fa-language"></i></span>
+        </div>
+        <div id="google_translate_element">
+
+        </div>    
+    </div>
 </div>
+
 </header>
+<script>
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement(
+            {pageLanguage: 'en'},
+            'google_translate_element'
+        );
+
+        /*
+            To remove the "powered by google",
+            uncomment one of the following code blocks.
+            NB: This breaks Google's Attribution Requirements:
+            https://developers.google.com/translate/v2/attribution#attribution-and-logos
+        */
+
+        // Native (but only works in browsers that support query selector)
+        //if(typeof(document.querySelector) == 'function') {
+        //    document.querySelector('.goog-logo-link').setAttribute('style', 'display: none');
+        //    document.querySelector('.goog-te-gadget').setAttribute('style', 'font-size: 0');
+        //}
+
+        // If you have jQuery - works cross-browser - uncomment this
+        //jQuery('.goog-logo-link').css('display', 'none');
+        //jQuery('.goog-te-gadget').css('font-size', '0');
+    }
+</script>
+<script src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+<script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" defer></script>
+<script src="/js/googleTranslate.js"></script>   

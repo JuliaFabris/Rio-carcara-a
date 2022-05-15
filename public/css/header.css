@@ -8,6 +8,7 @@ header{
   position: relative;
   width: 100%;
   height: 80px;
+  display: flex;
   justify-content: space-between;
   padding: 0 10px 0;
   border-bottom: 2px ridge rgba(139, 0, 0, 0.692);
@@ -23,6 +24,25 @@ header{
    flex-direction: row;
    justify-content:space-between;
  }
+
+ .traductor{
+  width: 12%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.skiptranslate.goog-te-gadget{
+  position: absolute;
+  top: 10px;
+  opacity: 0;
+}
+
+.traductor i{
+  font-size: 2.5rem;
+  margin: 0!important;
+}
 
 
 header button {
