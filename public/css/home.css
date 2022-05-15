@@ -283,7 +283,7 @@ heigth="315"  */
 } 
 
 
-/* MEDIA QUERY - 1200px */
+/* MEDIA QUERY - 1000px */
 @media(min-width: 1000px) {
 
   .body-home img.gifContainer {
