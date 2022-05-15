@@ -90,6 +90,7 @@ heigth="315"  */
 
 .body-home .special-title {
     font-family: var(--font-titles);
+    color: var(--color-blue);
     text-align: center;
     font-size: 20px;
 }
