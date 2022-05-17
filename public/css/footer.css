@@ -4,16 +4,28 @@ footer {
     background-color: var(--color-grey);
 }
 
+footer .title-footer {
+    font-family: var(--font-titles);
+    font-size: 20px;
+    text-align: center;
+    /* margin: 15px 0; */
+   /*  margin-top: 15px; */
+}
+
 footer .line-footer {
     background-color: var(--color-blue);
     width: 80%; 
     height: 4px;
+    margin-bottom: 25px;
 }
 
 footer a i.fab {
     color: var(--color-blue);
+    font-size: 30px;
+    
 }
 
-/* footer img.img-footer {
-
-} */
+footer img.img-footer {
+    width: 90px;
+    height: 70px;
+} 
