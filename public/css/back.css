@@ -262,11 +262,19 @@ ul.equipo-reparto {
 /* MEDIA QUERY - 425 px */
 @media(min-width: 425px) {
 
-  .body-home .navContainer {
+  .body-back .navbar_main {
     height: 30px;
   }
 
-  .body-home .navContainer ul li a {
+  .navbar_main ul li a {
     font-size: 18px;
   }
+}
+/* MEDIA QUERY - 768px */
+@media(min-width: 768px) {
+
+}
+/* MEDIA QUERY - 1024px */
+@media(min-width: 1024px) {
+
 }
