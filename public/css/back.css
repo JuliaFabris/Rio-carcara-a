@@ -234,7 +234,7 @@ div.carousel-back {
 
 section.equipo-reparto {
   display: block;
-  margin-top: 5px;
+  margin-top: 10px;
  font-size: 11px;
  width: 100%;
   height: 580px;
@@ -268,6 +268,73 @@ ul.equipo-reparto {
 
   .navbar_main ul li a {
     font-size: 18px;
+  }
+  section.containerReparto {
+   
+ top: 10px;
+ font-size: 14px;
+  width: 100%;
+  height: 720px;
+background-color: #f2f2f2;
+font-family: var(--font-titles);
+
+}
+h5.containerReparto {
+  bottom: 20px;
+  font-size: 26px;
+  height: 30px;
+  }
+  div.foto0 {
+    height: 200px;
+    top: 30px;
+    left: 10px;
+    margin-bottom: 20px;
+  }
+  div.foto1 {
+    height: 200px;
+    top: 30px;
+    left: 10px;
+    margin-bottom: 20px;
+  }
+  div.foto2 {
+    height: 200px;
+    top: 30px;
+    left: 10px;
+    margin-bottom: 20px;
+    
+  }
+  section.carrousel-back {
+    height: 615px;
+  
+  }
+  h5.carousel-back{
+    height: 40px;
+    font-size: 24px;
+   top:35px;
+  }
+  .slideshow-container {
+    height: 540px;
+    top: 35px;
+  }
+  img.carousel-back {
+    height: 500px;
+   top: 5px;
+  }
+  div.carousel-back {
+    margin-top: 10px;
+    height: 50px;
+  }
+  section.equipo-reparto {
+   font-size: 16px;
+    height: 1200px;
+  }
+  h5.equipo-reparto {
+    font-size: 26px;
+    height: 30px;
+  }
+  ul.equipo-reparto {
+    top: 20px;
+    margin-right: 10px;
   }
 }
 /* MEDIA QUERY - 768px */
