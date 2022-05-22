@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0 auto; /* agregué auto */
   padding: 0;
-  max-width: 1200px; /* se ampliará solo a 1200px */
+  max-width: 1200px; /* se ampliará solo a 1200px, incluido el carousel*/
 }
 a{
   text-decoration: none;
