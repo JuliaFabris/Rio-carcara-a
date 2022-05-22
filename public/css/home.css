@@ -23,7 +23,7 @@
 .body-home .navContainer ul li a {
     color: var(--color-blue);
     font-family: var(--font-titles);
-    font-size: 16px;
+    font-size: 15px;
     cursor: pointer;
     text-decoration: none;
 }
@@ -108,7 +108,7 @@ heigth="315"  */
 /* Sección del carrusel de 10 imágenes----- */
 /* contenedor principal */
 .carouselContainer { 
-    max-width: 1000px; 
+    max-width: 1200px; 
     position: relative;
     margin: auto;
 }
