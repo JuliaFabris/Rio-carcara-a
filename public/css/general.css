@@ -4,5 +4,8 @@
   padding: 0;
   max-width: 1200px; /* se ampliará solo a 1200px */
 }
+a{
+  text-decoration: none;
+}
 
 /* user-select: none; */
