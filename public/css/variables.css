@@ -1,6 +1,7 @@
 :root {
     --color-grey: #E5E5E5; /* header and footer */
     --color-blue: #111B4F; /* body */
+    --color-lightBlue: #56D6F2; /* color titles */
     --font-titles: 'Saira Stencil One';
     --font-paragraphs: 'Allerta Stencil', sans-serif;
     /* mobile-subtitles 20px*/
