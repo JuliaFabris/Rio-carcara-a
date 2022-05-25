@@ -28,6 +28,13 @@
     text-decoration: none;
 }
 
+/* Animaciones para el nav */
+@keyframes grow { /* grow-crecimiento */
+    0% {}
+    25% {}
+    100% {}
+}
+
 /* Sección del gif junto con los títulos----- */
 .body-home img.gifContainer {
     width: 100%;
