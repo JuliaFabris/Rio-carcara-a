@@ -78,12 +78,12 @@
     color: var(--color-grey);
     text-align: center;
     font-size: 20px;
-    margin-bottom: 10px; /* ------------- */
+    margin-bottom: 10px;
 }
 
 .body-home .trailerContainer iframe {
     width: 90%; 
-    height: 220px; /* ------------ */
+    height: 220px; 
 }
 /* width="90%" (html)
 heigth="315"  */ 
@@ -92,7 +92,8 @@ heigth="315"  */
 .body-home .reseñaContainer {
     background-color: var(--color-grey);
     padding: 30px 10px;
-    margin-bottom: 35px; /* ----- */
+    margin-bottom: 35px;
+    width: 100%;
 }
 
 .body-home .reseñaContainer .reseñaParagraph {
@@ -102,7 +103,7 @@ heigth="315"  */
     margin-bottom: 15px;
 }
 
-.body-home .special-title {
+.body-home .reseñaContainer .reseñaParagraph .special-title {
     font-family: var(--font-titles);
     color: var(--color-blue);
     text-align: center;
@@ -110,7 +111,12 @@ heigth="315"  */
 }
 
 .body-home .reseñaContainer img.imgReseña {
-    text-align: center; /* centrar img */
+    display: flex;   /* ------------------------- */
+    /* text-align: center; 
+    align-items: center; */
+    /* margin: 0 auto; */
+    width: 300px;
+    height: 200px;
 }
 
 /* Sección del carrusel de 10 imágenes----- */
@@ -262,7 +268,7 @@ heigth="315"  */
   
   .body-home .reseñaContainer img.imgReseña {
     width: 50%;
-    height: 200px;
+    height: 190px;
     margin: auto;
     align-items: center;
   }
