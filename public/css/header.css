@@ -1,8 +1,9 @@
-/* header{
-  width:100% vh;
-  height: 150px;
-  background-color:var(--color-grisaseo)
+/* header {
+    width:100% vh;
+    height: 150px;
+    background-color:var(--color-green)
 }
+
 .header.flex {
   background-color: var(--color-grisaseo);
   position: relative;
