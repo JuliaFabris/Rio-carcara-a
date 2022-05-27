@@ -1,12 +1,17 @@
 .body-back {
     background-color:  #111B4F;
+    box-sizing: content-box;
+}
+nav.navbar_main {
+  width: 100%;
 
 }
 .navbar_main {
+ 
   background-color: #E5E5E5;
   font-family: var(--font-titles);
   height: 30px;
-  width: 100%;
+  
   
 }
 .navbar_main ul {
@@ -28,9 +33,10 @@
 section.containerReparto {
   position: relative;
  top: 10px;
- font-size: 11px;
+ font-size: 13px;
+ box-sizing: content-box;
   width: 100%;
-  height: 560px;
+  height: 1030px;
 background-color: #f2f2f2;
 font-family: var(--font-titles);
 
@@ -45,21 +51,47 @@ h5.containerReparto {
   bottom: 10px;
   font-size: 20px;
   height: 30px;
+}
+div.reparto-container {
+  display: flex;
+  text-decoration: none;
+}
+.lista-reparto {
+  position: relative;
+  width: 45%;
+top:20px;
+left: 10px;
+font-size: 14px;
+}
+.lista-reparto li {
+  text-decoration: underline;
   
-
+}
+.rol-reparto {
+  position: relative;
+  width: 60%;
+  top:20px;
+  height: fit-content;
+  left: 10px;
+  font-size: 14px;
+  text-align: center;
+  right: 15px;
+}
+.rol-reparto li {
+  text-decoration: none;
 }
 div.foto0 {
   display: flex;
   position: relative;
   width: 100%;
-  height: 140px;
-  top: 30px;
+  height: 190px;
+  top: 40px;
   left: 10px;
-  
+  bottom: 5px;
 }
 img.img-reparto0{
   
-  width: 50%;
+  width: 45%;
   height: 100%;
   left: 8px;
 }
@@ -73,14 +105,15 @@ div.foto1 {
   display: flex;
   position: relative;
   width: 100%;
-  height: 140px;
+  height: 190px;
   top: 50px;
   
 }
 p.foto1{
-  width: 45%;
+  width: 50%;
   height: 100%;
   text-align: center;  
+  
 }
 img.img-reparto1{
   width: 45%;
@@ -92,28 +125,29 @@ div.foto2 {
   display: flex;
   position: relative;
   width: 100%;
-  height: 140px;
+  height: 190px;
  left: 8px;
   top: 70px;
 
 }
-img.img-reparto8{
+img.img-reparto2{
   width: 45%;
   height: 100%;
   
 }
 p.foto2{
   width: 50%;
-  height: 140px;
+  height: 150px;
   text-align: center;
   margin-right: 10px;
 }
-section.carrousel-back {
+section#img-back.carousel-back {
+  position: relative;
   background-color:  #111B4F;
   width: 100%;
-  height: 400px;
 text-transform: var(--font-titles);
-
+top: 30px;
+height: 570px;
 
 }
 h5.carousel-back{
@@ -121,21 +155,22 @@ h5.carousel-back{
   text-transform: var(--font-titles);
   color:  #E5E5E5;
   height: 40px;
-  font-size: 20px;
+  font-size: 22px;
   text-align: center;
- top:20px;
+ top:30px;
+ 
 }
 
 /* Slideshow container */
 .slideshow-container {
   width: 100%;
-  height: 400px;
+  height: 430px;
   position: relative;
-  top: 10px;
+  top: 30px;
 }
 img.carousel-back {
   width: 100%;
-  height: 400px;
+  height: 410px;
   vertical-align: middle;
  top: 5px;
 }
@@ -233,6 +268,7 @@ div.carousel-back {
 }
 
 section.equipo-reparto {
+  position: relative;
   display: block;
   margin-top: 10px;
  font-size: 11px;
@@ -257,9 +293,10 @@ ul.equipo-reparto {
   position: relative;
   width: 100%;
   text-align: center;
-  top: 20px;
+  top: 25px;
   margin-right: 10px;
   text-decoration: none;
+  font-size: 14px;
 }
 /* MEDIA QUERY - 425 px */
 @media(min-width: 425px) {
