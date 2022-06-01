@@ -4,14 +4,10 @@
 }
 nav.navbar_main {
   width: 100%;
-
-}
-.navbar_main {
- 
+  margin-top: 100px;
   background-color: #E5E5E5;
   font-family: var(--font-titles);
   height: 30px;
-  
   
 }
 .navbar_main ul {
@@ -115,6 +111,7 @@ p.foto0{
   height: 100%;
   text-align: center;
   margin-right: 10px;
+  font-family: var(--font-paragraphs);
 }
 div.foto1 {
   display: flex;
@@ -128,7 +125,7 @@ p.foto1{
   width: 50%;
   height: 100%;
   text-align: center;  
-  
+  font-family: var(--font-paragraphs);
 }
 img.img-reparto1{
   width: 45%;
@@ -155,24 +152,25 @@ p.foto2{
   height: 150px;
   text-align: center;
   margin-right: 10px;
+  font-family: var(--font-paragraphs);
 }
 section#img-back.carousel-back {
   position: relative;
   background-color:  #111B4F;
   width: 100%;
-text-transform: var(--font-titles);
-top: 30px;
-height: 570px;
+  text-transform: var(--font-titles);
+  padding-top: 90px;
+  height: 650px;
 
 }
 h5.carousel-back{
-  position: relative;
+  
   text-transform: var(--font-titles);
   color:  #E5E5E5;
-  height: 40px;
-  font-size: 22px;
+  height: 50px;
+  font-size: 24px;
   text-align: center;
- top:30px;
+ border-top:90px;
  
 }
 
@@ -181,13 +179,13 @@ h5.carousel-back{
   width: 100%;
   height: 430px;
   position: relative;
-  top: 30px;
+  top: 40px;
 }
 img.carousel-back {
   width: 100%;
   height: 400px;
   vertical-align: middle;
- top: 5px;
+ top: 20px;
 }
 
 /* Hide the images by default */
@@ -341,12 +339,29 @@ h5.containerReparto {
   height: 40px;
   }
   div.lista-reparto {
-   font-size: 20px;
-   height: 350px;
+   height: 320px;
   }
   ul.lista {
-    height: 350px;
+    font-family: var(--font-paragraphs);
+    height: 320px;
   }
+  ul.lista li {
+    font-family: var(--font-paragraphs);
+    font-size: 16.5px;
+  }
+  div.rol-reparto {
+    height: 350px;
+   }
+   ul.rol {
+     font-family: var(--font-paragraphs);
+     height: 350px;
+    
+   }
+   ul.rol li {
+    font-size: 15.5px;
+    text-align: justify;
+
+   }
   div.foto0 {
     width: 95%;
     height: 200px;
@@ -428,24 +443,42 @@ h5.containerReparto {
   }
   section.containerReparto {
  font-size: 18px;
- height: 1600px;
+ height: 1550px;
 }
  h5.containerReparto {
   font-size: 30px;
   height: 80px;
   }
-
   div.reparto-container {
-    height: 560px;
+    height: 480px;
   }
+
   div.lista-reparto {
-    font-size: 20px;
-  }
-  div.rol-reparto {
-    font-size: 20px;
-  }
+    height: 480px;
+   }
+   ul.lista {
+     font-family: var(--font-paragraphs);
+     height: 480px;
+   }
+   ul.lista li {
+     font-family: var(--font-paragraphs);
+     font-size: 20px;
+   }
+   div.rol-reparto {
+     height: 480px;
+    }
+    ul.rol {
+      font-family: var(--font-paragraphs);
+      height: 480px;
+     
+    }
+    ul.rol li {
+     font-size: 20px;
+     text-align: justify;
+ 
+    }
   div.foto0 {
-    width: 100%;
+    width: 95%;
     height: 270px;
   }
   img.img-reparto0 {
@@ -453,9 +486,13 @@ h5.containerReparto {
   }
   p.foto0 {
     font-size: 18px;
+    
+  }
+  p.foto0 #text {
+    right: 10px;
   }
   div.foto1 {
-    width: 100%;
+    width: 95%;
     height: 270px;
   }
   img.img-reparto1 {
@@ -465,7 +502,7 @@ h5.containerReparto {
     font-size: 18px;
   }
   div.foto2 {
-    width: 100%;
+    width: 95%;
     height: 270px;
   }
   img.img-reparto2 {
@@ -503,17 +540,17 @@ h5.containerReparto {
    top: 5px;
   }
   section#equipo-back.equipo-reparto {
-    height: 750px;
+    height: 780px;
   }
   h5.equipo-reparto {
-    font-size: 28px;
-    height: 30px;
+    font-size: 30px;
+    height: 50px;
   }
   ul.equipo-reparto {
     position: relative;
     top: 55px;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 18px;
   }
   
 }
