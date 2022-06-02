@@ -4,7 +4,7 @@
 }
 nav.navbar_main {
   width: 100%;
-  margin-top: 100px;
+  margin-top: 98px;
   background-color: #E5E5E5;
   font-family: var(--font-titles);
   height: 30px;
@@ -28,7 +28,7 @@ nav.navbar_main {
 
 section.containerReparto {
   position: relative;
- top: 10px;
+ top: 8px;
  box-sizing: content-box;
   width: 100%;
   height: 1030px;
@@ -113,6 +113,10 @@ p.foto0{
   margin-right: 10px;
   font-family: var(--font-paragraphs);
 }
+#text {
+  height: 190px;
+font-size: 13px;
+}
 div.foto1 {
   display: flex;
   position: relative;
@@ -159,7 +163,7 @@ section#img-back.carousel-back {
   background-color:  #111B4F;
   width: 100%;
   text-transform: var(--font-titles);
-  padding-top: 90px;
+  padding-top: 75px;
   height: 650px;
 
 }
@@ -167,7 +171,7 @@ h5.carousel-back{
   
   text-transform: var(--font-titles);
   color:  #E5E5E5;
-  height: 50px;
+  height: 40px;
   font-size: 24px;
   text-align: center;
  border-top:90px;
@@ -177,9 +181,8 @@ h5.carousel-back{
 /* Slideshow container */
 .slideshow-container {
   width: 100%;
-  height: 430px;
+  height: 400px;
   position: relative;
-  top: 40px;
 }
 img.carousel-back {
   width: 100%;
@@ -248,7 +251,7 @@ a.prev {
 div.carousel-back {
   position: relative;
   justify-content: center;
-  top: 20px;
+  top: 10px;
 }
 
 /* The dots/bullets/indicators */
@@ -281,6 +284,7 @@ div.carousel-back {
   .prev, .next,.text {font-size: 11px}
 }
 section#equipo-back.equipo-reparto {
+  padding: 70px;
   height: 650px;
 }
 section.equipo-reparto {
@@ -313,6 +317,8 @@ ul.equipo-reparto {
   text-decoration: none;
   font-size: 14px;
 }
+
+
 /* MEDIA QUERY - 425 px */
 @media(min-width: 425px) {
 
@@ -392,23 +398,27 @@ h5.containerReparto {
   }
   section.carrousel-back {
     height: 550px;
+  }
+  section#img-back.carousel-back {
+  
+    padding-top: 90px;
+    height: 650px;
   
   }
   h5.carousel-back{
-    height: 40px;
+    height: 30px;
     font-size: 26px;
-   top:35px;
   }
   div.slideshow-container {
-    height: 450px;
-    top: 30px;
+    height: 400px;
+    top: 15px;
   }
   img.carousel-back {
-    height: 420px;
+    height: 400px;
    top: 5px;
   }
   div.carousel-back {
-    margin-top: 10px;
+    margin-top: 15px;
     height: 30px;
   }
   section#equipo-back.equipo-reparto {
@@ -478,7 +488,6 @@ h5.containerReparto {
  
     }
   div.foto0 {
-    width: 95%;
     height: 270px;
   }
   img.img-reparto0 {
@@ -488,8 +497,9 @@ h5.containerReparto {
     font-size: 18px;
     
   }
-  p.foto0 #text {
+  #text {
     right: 10px;
+    font-size: 16px;
   }
   div.foto1 {
     width: 95%;
@@ -512,30 +522,22 @@ h5.containerReparto {
     font-size: 18px;
   }
   section#img-back.carousel-back {
-    position: relative;
-    background-color:  #111B4F;
-    width: 100%;
-  text-transform: var(--font-titles);
   top: 30px;
   height: 650px;
   
   }
-  
-  section.carrousel-back {
-    height: 650px;
-   }
   h5.carousel-back{
     font-size: 26px;
   }
   .slideshow-container {
     width: 100%;
-    height: 430px;
+    height: 400px;
     position: relative;
     top: 30px;
   }
   img.carousel-back {
     width: 100%;
-    height: 430px;
+    height: 400px;
     vertical-align: middle;
    top: 5px;
   }
@@ -556,5 +558,45 @@ h5.containerReparto {
 }
 /* MEDIA QUERY - 1024px */
 @media(min-width: 1024px) {
-
+  .navbar_main ul li a {
+    font-size: 20px;
+  }
+  h5.containerReparto {
+    font-size: 38px;
+    height: 70px;
+    }
+    ul.lista li {
+      font-size: 23px;
+    }
+    ul.rol li {
+      font-size: 23px;
+     }
+     #text {
+      font-size: 22px;
+    }
+    section#img-back.carousel-back {
+      padding-top: 110px;
+      top: 30px;
+      height: 700px;
+      
+       }
+       h5.carousel-back{
+         height: 40px;
+        font-size: 30px;
+      }
+    div.slideshow-container {
+        height: 450px;
+      }
+    img.carousel-back {
+        height: 450px;
+      }
+      section#equipo-back.equipo-reparto {
+        height: 980px;
+      }
+      h5.equipo-reparto {
+        font-size: 35px;
+      }
+      ul.equipo-reparto {
+        font-size: 20px;
+      }
 }
