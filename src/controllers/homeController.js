@@ -1,14 +1,11 @@
-
-
- let homeController= {
+let homeController = {
     home: (req, res) => {
-    res.render('home')
-
+        res.render('home')
     }
 
 }   
 
-module.exports = homeController
+module.exports = homeController;
 
 
 

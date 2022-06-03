@@ -22,12 +22,17 @@ app.use(express.static( '../public'));
 //app.use(express.urlencoded({ extended: false }));
 
 app.use('/', homeRouter);
-/*app.use('/back', backRouter);*/
-app.get('/back', function (req, res) {
+app.get('/back', backRouter);
+/* app.use('/back', function (req, res) {
     res.render('back')
+})  */
+
+/* Error 404 */
+app.use((req, res, next) => {
+    res.status(404).render('404')
 })
 
 
-app.listen(PORT, ()=>console.log(`Servidor levantado en el puerto ${PORT}
+app.listen(PORT, () => console.log(`Servidor levantado en el puerto ${PORT}
 http://localhost:${PORT}`));
 
