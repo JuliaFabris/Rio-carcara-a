@@ -8,7 +8,7 @@
     background-color: var(--color-grey);
     width: 100%;
     flex-direction: row;
-    margin-top: 5px;
+    margin-top: 95px; /* 5px */
 }
 
 .body-home .navContainer ul {
@@ -128,6 +128,10 @@ heigth="315"  */
 .mySlides {
     display: none;
 } 
+
+div.mySlides img {
+    height: 490px; /*  */
+}
 
 /* Botones anterior y siguiente */
 .prev, .next {
