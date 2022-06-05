@@ -112,8 +112,8 @@ heigth="315"  */
 
 .body-home .reseñaContainer img.imgReseña {
     display: flex;   
-    width: 300px;
-    height: 200px;
+    width: 300px; 
+    height: 300px; 
 }
 
 /* Sección del carrusel de 10 imágenes----- */
@@ -220,6 +220,11 @@ div.mySlides img {
     height: 300px; 
   }
 
+  .body-home .reseñaContainer img.imgReseña {  
+    width: 400px; 
+    height: 400px; 
+}
+
 }
 
 
@@ -255,25 +260,6 @@ div.mySlides img {
     height: 350px; 
   } 
 
-  .body-home .reseñaContainer {
-    display: flex;
-    flex-direction: row;
-    padding: 35px 18px;
-    margin-bottom: 40px;
-  }
-
-  .body-home .reseñaContainer .reseñaParagraph {
-    margin-bottom: 0;
-    padding-right: 18px;
-  } 
-  
-  .body-home .reseñaContainer img.imgReseña {
-    width: 50%;
-    height: 190px;
-    margin: auto;
-    align-items: center;
-  }
-
 }
 
 
@@ -299,14 +285,14 @@ div.mySlides img {
   }
 
   .body-home .trailerContainer iframe {
-      width: 80%; 
-      height: 480px; 
+    width: 80%; 
+    height: 480px; 
   } 
 
   .body-home .reseñaContainer { 
     padding: 40px 25px;
     margin-bottom: 50px;
-  }
+  } 
 
 } 
 
@@ -331,18 +317,29 @@ div.mySlides img {
     margin-bottom: 60px;
   }
 
-  .body-home .reseñaContainer { 
-    padding: 50px 50px;
-    margin-bottom: 60px;
-  }
-  
-  .body-home .reseñaContainer .reseñaParagraph {
-    padding-right: 50px;
-  } 
-
   .body-home .reseñaContainer .reseñaParagraph .special-title {
     font-size: 22px;
     margin-bottom: 50px;
   }
+  
+ .body-home .reseñaContainer {
+    display: flex;
+    flex-direction: row;
+    padding: 50px 50px;
+    margin-bottom: 60px;
+  }
+
+  .body-home .reseñaContainer .reseñaParagraph {
+    margin-bottom: 0;
+    padding-right: 40px;
+  } 
+  
+  .body-home .reseñaContainer img.imgReseña {
+    width: 50%;
+    height: 450px;
+    width: 450px; 
+    margin: auto;
+    align-items: center;
+  } 
 
 }
