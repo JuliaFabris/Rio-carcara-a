@@ -112,8 +112,8 @@ heigth="315"  */
 
 .body-home .reseñaContainer img.imgReseña {
     display: flex;   
-    width: 300px; 
-    height: 300px; 
+    width: 250px; 
+    height: 250px; 
 }
 
 /* Sección del carrusel de 10 imágenes----- */
@@ -130,7 +130,10 @@ heigth="315"  */
 } 
 
 div.mySlides img {
-    height: 490px; /*  */
+    max-height: 490px; 
+    /* La height que traia desde el principio, era demasiado alto. 
+    Aqui las fotos del carousel tendran un máximo de altura,
+    no se deforman las fotos*/
 }
 
 /* Botones anterior y siguiente */
