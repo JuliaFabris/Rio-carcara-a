@@ -71,14 +71,16 @@
 .body-home .trailerContainer {
     text-align: center;
     margin-bottom: 35px;
+    /*padding-top: 90px;  */
 }
 
-.body-home .sub-titles {
+.body-home h2.sub-titles {
     font-family: var(--font-titles);
     color: var(--color-grey);
     text-align: center;
     font-size: 20px;
     margin-bottom: 10px;
+    /*margin-bottom: 90px;   */
 }
 
 .body-home .trailerContainer iframe {
