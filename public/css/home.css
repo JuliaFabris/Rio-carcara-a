@@ -62,7 +62,7 @@
 /* Sección del trailer----- */
 .body-home .trailerContainer {
     text-align: center;
-    margin-bottom: 35px;
+    margin-bottom: 40px;
 }
 
 .body-home h2.sub-titles {
@@ -219,7 +219,7 @@ div.mySlides img {
   .body-home .reseñaContainer img.imgReseña {  
     width: 400px; 
     height: 400px; 
-}
+  }
 
 }
 
@@ -298,9 +298,9 @@ div.mySlides img {
 
   /* Animaciones para el nav */
   @keyframes grow { /* grow-crecimiento */
-  0% {}
-  25% {}
-  100% {}
+    0% {}
+    25% {}
+    100% {}
 }
 
   .body-home img.gifContainer {
