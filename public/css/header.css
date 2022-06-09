@@ -1,20 +1,18 @@
 header.main-header {
-    /* color: var(--color-grey);  */
     width: 100%;
     height: 90px;
     top: 0%;
     position: fixed;
     z-index: 10; 
     display: flex;
-    
 }
 
 header.main-header img.background-header { 
-    width: 100%;
-    height: 90px;
-    /* object-fit: cover;   */
+   /* width: 100%; */
+    height: 90px; 
+    /* object-fit: cover; */   
+    background-size: cover;
     position: relative;
-
 }
 
 header.main-header div.box-container {
@@ -23,12 +21,11 @@ header.main-header div.box-container {
     position: absolute;
     display: flex;
     justify-content: space-between;
-    padding: 10px 10px 0 10px;
+    padding: 6px 10px 0 10px;
 } 
 
 header.main-header div.box-container div.container-logo, div.container-contacts {
     margin: 0;
-    
 } 
 
 header.main-header div.box-container .container-logo a p.text-logo {
@@ -37,21 +34,36 @@ header.main-header div.box-container .container-logo a p.text-logo {
     cursor: pointer;
     text-align: center;
     font-size: 20px;
-    /* margin-left: -25px; */
-    
 }
 
 header.main-header div.box-container div.container-contacts a.a-header i.icon-header {
     color: var(--color-grey);
     cursor: pointer;
     font-size: 22px;
-    padding-top: 5px;
     margin: 0 2px;
+}
+
+.skiptranslate.goog-te-gadget {
+    position: absolute;
+    top: 35px;
+    right: 10px; 
+    display: flex; 
+    flex-direction: column;
+}
+/* ------------------------------------------- */
+table { /* body.goog-te-banner */
+  padding-top: 90px;
+  z-index: 11;
+}
+
+/* iframe .container.goog-te-banner-frame  */
+body .goog-te-banner{
+  top: 20px;
 }
 
 
 /* MEDIA QUERY - 1000px */
-@media(min-width: 1000px) {
+/* @media(min-width: 1000px) {
     
   header.main-header div.box-container {
     width: 100%;
@@ -59,19 +71,13 @@ header.main-header div.box-container div.container-contacts a.a-header i.icon-he
     position: absolute;
     display: flex;
     justify-content: space-between;
-    padding: 15px 10px 0 15px;
+    padding: 10px 10px 0 15px;
   } 
 
-}
+} */
 
-/* .traductor{
-  width: 12%;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 
+/* 
 .skiptranslate.goog-te-gadget{
   position: absolute;
   top: 10px;
