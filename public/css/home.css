@@ -8,7 +8,7 @@
     background-color: var(--color-grey);
     width: 100%;
     flex-direction: row;
-    margin-top: 95px; /* 5px */
+    margin-top: 95px; /* margin-top: 95px; */
 }
 
 .body-home .navContainer ul {
@@ -343,3 +343,14 @@ div.mySlides img {
   } 
 
 }
+
+/* Clases secundarias para solucionar problema de estilo del traductor */
+
+/* htmls capturados */
+/* .pages { 
+    margin-top: -40px;
+} */
+
+/* .pagesBottom {
+    margin-top: 0px;
+}  */
