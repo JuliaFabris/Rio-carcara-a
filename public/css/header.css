@@ -46,6 +46,9 @@ header.main-header div.box-container div.container-contacts a.a-header i.icon-he
 /* Traductor */
 
 /* Select y logo del lado derecho del header */
+div.skiptranslate {
+    display: none;
+}
 .skiptranslate.goog-te-gadget {
     position: absolute;
     top: 35px;

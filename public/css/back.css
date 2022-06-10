@@ -71,7 +71,7 @@ font-family: var(--font-paragraphs);
   padding: 0 0 3px 0;
 }
 li#espacio {
-  padding-top: 10px;
+  padding-top: 8px;
 }
 div.rol-reparto {
   position: relative;
@@ -87,7 +87,7 @@ ul#rol.rol {
 }
 ul.rol li {
   font-size: 13px;
-  padding: 0 5px 4px 0;
+  padding: 0 5px 3px 0;
 }
 li::marker {
   display: list-item;
@@ -348,6 +348,9 @@ h5.containerReparto {
   font-size: 24px;
   height: 40px;
   }
+  div.reparto-container {
+    height: 380px;
+  }
   div.lista-reparto {
    height: 320px;
   }
@@ -372,8 +375,8 @@ h5.containerReparto {
 
    }
    ul#rol.rol {
-    font-size: 13.5px;
-    padding: 0 4px 4px 0;
+    font-size: 13px;
+    padding: 0 4px 3px 0;
   }
   div.foto0 {
     width: 95%;
@@ -418,7 +421,7 @@ h5.containerReparto {
   }
   div.slideshow-container {
     height: 400px;
-    top: 15px;
+    top: 10px;
   }
   img.carousel-back {
     height: 400px;
@@ -467,7 +470,7 @@ h5.containerReparto {
   height: 80px;
   }
   div.reparto-container {
-    height: 480px;
+    height: 520px;
   }
 
   div.lista-reparto {
@@ -504,9 +507,9 @@ h5.containerReparto {
     font-size: 18px;
     
   }
-  #text {
+  p#text {
     right: 10px;
-    font-size: 16px;
+    font-size: 18px;
   }
   div.foto1 {
     width: 95%;
@@ -565,6 +568,10 @@ h5.containerReparto {
 }
 /* MEDIA QUERY - 1024px */
 @media(min-width: 1024px) {
+  .iframe {
+   visibility: hidden;
+
+  }
   .navbar_main ul li a {
     font-size: 20px;
   }
@@ -580,6 +587,9 @@ h5.containerReparto {
      }
      #text {
       font-size: 22px;
+    }
+    div.reparto-container {
+      height: 550px;
     }
     section#img-back.carousel-back {
       padding-top: 110px;
