@@ -1,4 +1,5 @@
 .body-back {
+  width: 100%;
     background-color:  #111B4F;
     box-sizing: content-box;
     margin-right: 0px;
@@ -55,18 +56,22 @@ div.reparto-container {
 }
 div.lista-reparto {
   position: relative;
-  width: 45%;
+  width: 50%;
 top:20px;
-left: 10px;
 text-align: center;
 }
 ul.lista {
+  height: 350px;
   color: var(--color-blue);
 font-family: var(--font-paragraphs);
 }
 .lista li {
   text-decoration: double;
-  font-size: 15px;
+  font-size: 13.5px;
+  padding: 0 0 3px 0;
+}
+li#espacio {
+  padding-top: 10px;
 }
 div.rol-reparto {
   position: relative;
@@ -78,10 +83,11 @@ div.rol-reparto {
  
 }
 ul#rol.rol {
-  height: 390px;
+  height: 350px;
 }
 ul.rol li {
-  font-size: 14.5px;
+  font-size: 13px;
+  padding: 0 5px 4px 0;
 }
 li::marker {
   display: list-item;
@@ -111,7 +117,8 @@ p.foto0{
 }
 #text {
   height: 190px;
-font-size: 13px;
+font-size: 12px;
+padding: 0 5px 0 5px;
 }
 div.foto1 {
   display: flex;
@@ -130,7 +137,9 @@ p.foto1{
 img.img-reparto1{
   width: 45%;
   height: 100%;
-  right: 10px;
+}
+p#text.foto1 {
+  margin: 0%;
 }
 
 div.foto2 {
@@ -327,8 +336,7 @@ ul.equipo-reparto {
   }
   section.containerReparto {
    
- top: 10px;
- font-size: 14px;
+ top: 5px;
   width: 100%;
   height: 1120px;
 background-color: #f2f2f2;
@@ -337,7 +345,7 @@ font-family: var(--font-titles);
 }
 h5.containerReparto {
   bottom: 20px;
-  font-size: 26px;
+  font-size: 24px;
   height: 40px;
   }
   div.lista-reparto {
@@ -349,7 +357,7 @@ h5.containerReparto {
   }
   ul.lista li {
     font-family: var(--font-paragraphs);
-    font-size: 16.5px;
+    font-size: 14px;
   }
   div.rol-reparto {
     height: 350px;
@@ -360,10 +368,13 @@ h5.containerReparto {
     
    }
    ul.rol li {
-    font-size: 15.5px;
     text-align: justify;
 
    }
+   ul#rol.rol {
+    font-size: 13.5px;
+    padding: 0 4px 4px 0;
+  }
   div.foto0 {
     width: 95%;
     height: 200px;
