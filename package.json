@@ -4,7 +4,7 @@
   "description": "Sitio web de la pelicula documental Río Carcarañá",
   "main": "src/app.js",
   "scripts": {
-    "start": "node app"
+    "start": "node ./src/app"
   },
   "repository": {
     "type": "git",
