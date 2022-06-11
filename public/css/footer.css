@@ -68,7 +68,7 @@ footer h5 a {
 @media(min-width: 500px) {
 
     footer {
-        height: 495px;
+        height: 500px;
     }
 
     footer .logos-footer {
@@ -82,7 +82,7 @@ footer h5 a {
 @media(min-width: 768px) {
 
     footer {
-        height: 415px;
+        height: 425px;
     }
 
     footer .logos-footer {
