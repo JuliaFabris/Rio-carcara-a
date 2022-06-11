@@ -1,16 +1,15 @@
 .body-back {
   width: 100%;
-    background-color:  #111B4F;
+    background-color: var(--color-blue);
     box-sizing: content-box;
     margin-right: 0px;
 }
 nav.navbar_main {
   width: 100%;
   margin-top: 95px;
-  background-color: #E5E5E5;
+  background-color: var(--color-grey);
   font-family: var(--font-titles);
-  height: 30px;
-  
+  height: 29px;
 }
 .navbar_main ul {
   margin-left: 25px;
