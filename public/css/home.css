@@ -42,7 +42,7 @@
     position: absolute;
     text-align: center; /* centrado de las mismas etiquetas */
     width: 100%;
-    top: 140px; /*  */
+    top: 150px; /*  */
     font-weight: 600;
     text-shadow: 2.8px 3px var(--color-blue); /* sombra de la letra */
 }
@@ -209,7 +209,7 @@ div.mySlides img {
   }
 
   .body-home .titles {
-    top: 160px; /*  */
+    top: 175px; /*  */
   }
 
   .body-home .trailerContainer iframe {
@@ -266,7 +266,7 @@ div.mySlides img {
   } 
 
   .body-home .titles {
-    top: 200px; /*  */
+    top: 220px; /*  */
   }
 
   .body-home .sub-titles {
@@ -306,7 +306,7 @@ div.mySlides img {
   }
 
   .body-home .titles {
-    top: 220px; /*  */
+    top: 250px; /*  */
   }
 
   .body-home .titles .big {
