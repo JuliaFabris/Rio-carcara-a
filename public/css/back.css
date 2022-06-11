@@ -163,56 +163,51 @@ p.foto2{
   margin-right: 10px;
   font-family: var(--font-paragraphs);
 }
+
+/* carousel------- */
 section#img-back.carousel-back {
   position: relative;
-  background-color:  #111B4F;
   width: 100%;
   text-transform: var(--font-titles);
-  padding-top: 75px;
-  height: 650px;
+  padding-top: 85px;
+} 
 
-}
 h5.carousel-back{
-  
   font-family: var(--font-titles);
   color: var(--color-grey);
   height: 40px;
   font-size: 24px;
   text-align: center;
- border-top:90px;
- 
+  border-top: 90px;
 }
 
 /* Slideshow container */
-.slideshow-container {
-  width: 100%;
-  height: 400px;
+.carouselContainer { 
+  max-width: 1200px; 
   position: relative;
-}
-img.carousel-back {
-  width: 100%;
-  height: 400px;
-  vertical-align: middle;
- top: 20px;
+  margin: auto;
 }
 
 /* Hide the images by default */
 .mySlides {
-width: 100%;
-height: auto;
+  display: none;
+} 
+
+div.mySlides img {
+  max-height: 492px; 
+  /* La height que traia desde el principio, era demasiado alto. 
+  Aqui las fotos del carousel tendran un máximo de altura,
+  no se deforman las fotos*/
 }
 
-a.prev {
-  left: 0px;
-}
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
   position: absolute;
   top: 50%;
   width: auto;
-  padding: 16px;
   margin-top: -22px;
+  padding: 16px;
   color: white;
   font-weight: bold;
   font-size: 18px;
@@ -232,18 +227,6 @@ a.prev {
   background-color: rgba(0,0,0,0.8);
 }
 
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-  -webkit-user-selec:auto;
-}
-
 /* Number text (1/3 etc) */
 .numbertext {
   color: #f2f2f2;
@@ -251,12 +234,6 @@ a.prev {
   padding: 8px 12px;
   position: absolute;
   top: 0;
-}
-
-div.carousel-back {
-  position: relative;
-  justify-content: center;
-  top: 10px;
 }
 
 /* The dots/bullets/indicators */
@@ -285,22 +262,22 @@ div.carousel-back {
   from {opacity: .4}
   to {opacity: 1}
 }
+
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
 }
+/* end carousel---------------- */
 section#equipo-back.equipo-reparto {
-  padding: 70px;
-  height: 650px;
+  padding-top: 48px;
+  height: 600px;
 }
 section.equipo-reparto {
   position: relative;
   display: block;
-  margin-top: 10px;
- width: 100%;
+  width: 100%;
   height: 580px;
-background-color: #f2f2f2;
-font-family: var(--font-titles);
-
+  background-color: #f2f2f2;
+  font-family: var(--font-titles);
 }
 h5.equipo-reparto {
   width: 100%;
@@ -335,13 +312,11 @@ ul.equipo-reparto {
     font-size: 15px;
   }
   section.containerReparto {
-   
- top: 5px;
+  top: 5px;
   width: 100%;
   height: 1120px;
-background-color: #f2f2f2;
-font-family: var(--font-titles);
-
+  background-color: #f2f2f2;
+  font-family: var(--font-titles);
 }
 h5.containerReparto {
   bottom: 20px;
@@ -405,31 +380,6 @@ h5.containerReparto {
   p.foto2 {
     width: 50%;
    height: 200px;
-  }
-  section.carrousel-back {
-    height: 550px;
-  }
-  section#img-back.carousel-back {
-  
-    padding-top: 90px;
-    height: 650px;
-  
-  }
-  h5.carousel-back{
-    height: 30px;
-    font-size: 26px;
-  }
-  div.slideshow-container {
-    height: 400px;
-    top: 10px;
-  }
-  img.carousel-back {
-    height: 400px;
-   top: 5px;
-  }
-  div.carousel-back {
-    margin-top: 15px;
-    height: 30px;
   }
   section#equipo-back.equipo-reparto {
     height: 750px;
@@ -531,26 +481,6 @@ h5.containerReparto {
   p.foto2 {
     font-size: 18px;
   }
-  section#img-back.carousel-back {
-  top: 30px;
-  height: 650px;
-  
-  }
-  h5.carousel-back{
-    font-size: 26px;
-  }
-  .slideshow-container {
-    width: 100%;
-    height: 400px;
-    position: relative;
-    top: 30px;
-  }
-  img.carousel-back {
-    width: 100%;
-    height: 400px;
-    vertical-align: middle;
-   top: 5px;
-  }
   section#equipo-back.equipo-reparto {
     height: 780px;
   }
@@ -591,22 +521,6 @@ h5.containerReparto {
     div.reparto-container {
       height: 550px;
     }
-    section#img-back.carousel-back {
-      padding-top: 110px;
-      top: 30px;
-      height: 700px;
-      
-       }
-       h5.carousel-back{
-         height: 40px;
-        font-size: 30px;
-      }
-    div.slideshow-container {
-        height: 450px;
-      }
-    img.carousel-back {
-        height: 450px;
-      }
       section#equipo-back.equipo-reparto {
         height: 980px;
       }

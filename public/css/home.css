@@ -91,6 +91,7 @@ heigth="315"  */
 .body-home .reseñaContainer .reseñaParagraph {
     color: var(--color-blue);
     font-family: var(--font-paragraphs);
+    font-size: 17px;
     text-align: center;
     margin-bottom: 15px;
 }
@@ -100,7 +101,7 @@ heigth="315"  */
     color: var(--color-blue);
     text-align: center;
     font-size: 20px;
-    padding-top: 90px;  /* ---------------------------- */
+    padding-top: 90px;  
 }
 
 .body-home .reseñaContainer img.imgReseña {
@@ -123,7 +124,7 @@ heigth="315"  */
 } 
 
 div.mySlides img {
-    max-height: 490px; 
+    max-height: 492px; 
     /* La height que traia desde el principio, era demasiado alto. 
     Aqui las fotos del carousel tendran un máximo de altura,
     no se deforman las fotos*/
