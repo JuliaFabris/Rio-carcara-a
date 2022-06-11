@@ -24,7 +24,7 @@ header.main-header div.box-container {
 /* padding: 10px 12px 0 10px; */
 
 header.main-header div.box-container div.container-logo {
-    padding: 8px 0 0 8px;
+    padding: 25px 0 0 12px;
     cursor: pointer;
 }
 
@@ -42,7 +42,7 @@ header.main-header div.box-container div.container-logo, div.container-contacts 
 header.main-header div.box-container div.container-contacts a.a-header i.icon-header {
     color: var(--color-grey);
     cursor: pointer;
-    font-size: 28px;
+    font-size: 30px;
     margin: 0 6px;
     padding: 15px 10px 0 0;
 }
