@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const path = require('path');
-const PORT = 3000;
+const port = process.env.PORT || 3000; /* variable de entorno necesaria para el deploy */
 
 /* Enrutadores */
 let homeRouter = require('./routes/home');
@@ -33,6 +33,6 @@ app.use((req, res, next) => {
 })
 
 
-app.listen(PORT, () => console.log(`Servidor levantado en el puerto ${PORT}
-http://localhost:${PORT}`));
+app.listen(port, () => console.log(`Servidor levantado en el puerto ${port}
+http://localhost:${port}`));
 
