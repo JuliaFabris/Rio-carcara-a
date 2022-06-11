@@ -8,7 +8,16 @@ Lineas Marítimas Argentinas (E.L.M.A.). En 1982 participaria en la Guerra de Ma
 El nombre de la población proviene de los vocablos guaraníes "cara cara añá", cuya traducción al español es "carancho diablo". El carancho es un ave de rapiña.
 Conoce su último viaje y la conmovedora historia de los trabajadores y sus tripulantes.
 
-Este proyecto presenta este documental. Está realizado con HTML, Css y Javascript.
+Este proyecto presenta este documental.
+
+Link: 
+
+Herramientas: 
+- HTML
+- Css
+- Javascript
+- API Cloud Translation
+- Heroku
 
 ### Integrantes:
 

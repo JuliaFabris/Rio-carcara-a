@@ -174,8 +174,8 @@ section#img-back.carousel-back {
 }
 h5.carousel-back{
   
-  text-transform: var(--font-titles);
-  color:  #E5E5E5;
+  font-family: var(--font-titles);
+  color: var(--color-grey);
   height: 40px;
   font-size: 24px;
   text-align: center;
@@ -305,7 +305,7 @@ font-family: var(--font-titles);
 h5.equipo-reparto {
   width: 100%;
   text-transform: var(--font-titles);
-  text-decoration-color:  #111B4F;
+  color: var(--color-blue);
  text-align: center;
   position: relative;
   top: 10px;
