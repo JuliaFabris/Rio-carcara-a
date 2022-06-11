@@ -21,7 +21,7 @@ header.main-header div.box-container {
     position: absolute;
     display: flex;
     justify-content: space-between;
-    padding: 6px 12px 0 10px;
+    padding: 10px 12px 0 10px;
 } 
 
 header.main-header div.box-container div.container-logo, div.container-contacts {
@@ -33,14 +33,14 @@ header.main-header div.box-container .container-logo a p.text-logo {
     font-family: var(--font-titles);
     cursor: pointer;
     text-align: center;
-    font-size: 25px;
+    font-size: 28px;
 }
 
 header.main-header div.box-container div.container-contacts a.a-header i.icon-header {
     color: var(--color-grey);
     cursor: pointer;
-    font-size: 25px;
-    margin: 0 8px;
+    font-size: 28px;
+    margin: 0 10px;
 }
 
 /* Traductor */
