@@ -1,6 +1,6 @@
 footer {
     width: 100%;
-    height: 560px;
+    height: 570px;
     background-color: var(--color-grey);
     margin-bottom: 5px;
 }
@@ -8,7 +8,7 @@ footer {
 footer h2.title-footer {
     font-family: var(--font-titles);
     color: var(--color-blue);
-    font-size: 20px;
+    font-size: 22px;
     text-align: center;
     padding-top: 30px;
 }
@@ -28,8 +28,8 @@ footer .icons-footer {
 
 footer .icons-footer a.a-footer i.icon {
     color: var(--color-blue);
-    font-size: 30px;
-    margin: 0 10px;
+    font-size: 40px;
+    margin: 0 12px;
 }
 
 footer .logos-footer {
@@ -59,7 +59,7 @@ footer h5 {
 
 footer h5 a {
     cursor: pointer;
-    text-decoration:underline;
+    text-decoration: underline;
     color: var(--color-blue);
 }
 
@@ -68,7 +68,7 @@ footer h5 a {
 @media(min-width: 500px) {
 
     footer {
-        height: 490px;
+        height: 500px;
     }
 
     footer .logos-footer {
@@ -82,7 +82,7 @@ footer h5 a {
 @media(min-width: 768px) {
 
     footer {
-        height: 410px;
+        height: 425px;
     }
 
     footer .logos-footer {

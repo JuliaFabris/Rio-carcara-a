@@ -16,7 +16,7 @@ Herramientas:
 - HTML
 - Css
 - Javascript
-- API Cloud Translation
+- API Cloud Translation (ha sido bloqueada)
 - Heroku
 
 ### Integrantes:
