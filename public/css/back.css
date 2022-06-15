@@ -4,6 +4,26 @@
     box-sizing: content-box;
     margin-right: 0px;
 }
+div#chat-robbu.cr-float.cr-active {
+  background-color:  #111B4F;
+  border-radius: 55px;
+  
+}
+a#flecha.flecha-arriba {
+  top: 5px;
+  left: 8px;
+}
+i.fas.fa-angle-double-up {
+  width: 12px;
+  height: 18px;
+}
+i.fas.fa-angle-double-up::before {
+  color: #E5E5E5;
+  width: 20px;
+  height: 28px;
+  top: 5px;
+  left: 8px;
+}
 nav.navbar_main {
   width: 100%;
   margin-top: 95px;
