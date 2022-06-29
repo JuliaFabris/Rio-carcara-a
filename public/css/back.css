@@ -7,15 +7,18 @@
 div#chat-robbu.cr-float.cr-active {
   background-color:  #111B4F;
   border-radius: 55px;
-  
 }
 a#flecha.flecha-arriba {
   top: 5px;
   left: 8px;
+  border-radius: 50%;
+  background-color:  #111B4F;
 }
 i.fas.fa-angle-double-up {
-  width: 12px;
-  height: 18px;
+  width: 22px;
+  height: 22px; 
+  text-align: center;
+  align-items: center;
 }
 i.fas.fa-angle-double-up::before {
   color: #E5E5E5;
